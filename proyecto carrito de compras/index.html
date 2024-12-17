@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi carrito de Compras</title>
+    <!-- favicon de mi barra de direcciones icono favorito CR de Comidas Rapidas -->
+    <link rel="icon" type="Image/x-icon" href="images/favicon.png">
+    <!-- Trae juego de caracteres de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Etilos de iconos para las paginas cdn font awesone-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Mis estilos de mi carpeta css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="inicio">
+        <!--Encabezado de la pagina -->
+        <h1>CASA DE COMIDAS RAPIDAS NINA</h1>
+        <nav>
+            <ul>
+                <div class="barra">
+                    <div class="objetos">
+                        <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                    </div>
+                    <div class="objetos">
+                        <li><a href="#menues"><i class="fa-solid fa-utensils"></i> Menu</a></li>
+                    </div>
+                    <div class="objetos">
+                        <li><a href="pages/contacto.html"><i class="fa-solid fa-file-signature"></i> Contactos</a></li>
+                    </div>
+                </div>    
+            </ul>   
+        </nav>
+    </header>
+    <main>
+        <p>LISTADO DE LOS PRODUCTOS DE COMIDAS</p>
+        <!--Seccion de muestra de targetas con los productos en la pantalla con menues -->
+        <section id="menues">
+            <div id="contenedorProductos" class="bloque">
+
+            </div>
+        </section>
+        <!--Seccion de carga de productos seleccionados en el carrito de compras -->
+        <section id="carrito">
+            <h2><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>  Carrito</h2>
+            <ul>
+                
+            </ul>
+            <p id="TotalPagar">Total a pagar: </p>
+            <input id="boton-borrar" type="button" value="Borrar Carrito">
+            <input id="boton-pagar" type="button" value="Pagar">
+            <p id="mensaje"></p>
+        </section>
+        <!--Seccion de carga de pago de los productos seleccionados -->
+        <section id="pagos">
+            <div class="contenido">
+                <h2><i class="fa-regular fa-credit-card"></i> Formas de pago con targeta de credito</h2>
+                <h2><i class="fa-solid fa-money-bill-trend-up"></i> Pago electronico</h2>
+                <ul>
+                    <li>Modo</li>
+                    <li>Mercado Pago</li>
+                    <li>Transferencia Bancaria</li>
+                </ul>  
+                <h3><i class="fa-solid fa-money-bill-1"></i> Pago en Efectivo</h3>  
+            </div>
+        </section>
+    </main>
+    <section>
+        <h2>Reseñas de los clientes del sitio</h2>
+        <h3>Opiniones de nuestros clientes</h3>
+        <div class="reseñas">
+            <div class="reseña">
+                <h2>El mejor lugar para comer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis cumque neque voluptatem non molestiae itaque voluptatibus, id sit recusandae iusto? Officia debitis voluptate ipsum dolor ducimus voluptates laudantium sunt!</p>
+                <cite>pepe honguito</cite>
+            </div>
+            <div class="reseña">
+                <h2>El mejor lugar para comer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis cumque neque voluptatem non molestiae itaque voluptatibus, id sit recusandae iusto? Officia debitis voluptate ipsum dolor ducimus voluptates laudantium sunt!</p>
+                <cite>pepe honguito</cite>
+            </div>
+            <div class="reseña">
+                <h2>El mejor lugar para comer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni debitis cumque neque voluptatem non molestiae itaque voluptatibus, id sit recusandae iusto? Officia debitis voluptate ipsum dolor ducimus voluptates laudantium sunt!</p>
+                <cite>pepe honguito</cite>
+            </div>
+            
+        </div>
+        <a href="#inicio" ><i class="fa-solid fa-house"></i> Inicio</a>
+    </section>    
+    <script src="js/scripts.js"></script>
+</body>
+<footer>
+    <p>Talento Tech * Mansilla Carlos Alberto *</p>
+</footer>
+</html>

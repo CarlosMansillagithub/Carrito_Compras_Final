@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contactos</title>
+    <link rel="icon" type="Image/x-icon" href="../images/favicon.png">
+    <!-- Etilos de iconos para las paginas cdn font awesone-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Mis estilos de mi carpeta css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Formulario de Contactos</h1>
+    <form action="https://formspree.io/f/xrbgelre" method="post" target="_blank">
+        <fieldset>
+            <legend>Datos personales</legend>
+                <label for="firstname">Nombre: </label>
+                <input size=30 type="text" name="firstname" id="firstname">
+                <label for="correo">Mail: </label>
+                <input size=30 type="email" name="correo" id="correo">
+        </fieldset> 
+        <br><br>   
+        <label for="mensaje">Mensaje: </label>
+        <br>
+        <textarea name="comentarios" rows="5" cols="30"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        <a href="../index.html"><i class="fa-solid fa-house"></i> Inicio</a>
+    </form>
+</body>
+</html>
